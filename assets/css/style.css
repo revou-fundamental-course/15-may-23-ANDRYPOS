@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    border: groove 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px 5px #888888;
+    width: 30%;
+    margin: 20px;
+}
+
+#p-index,
+#p-index1 {
+    text-align: center;
+    font-size: smaller;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.selectPersegi {
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav .selectPersegi:hover {
+    background-color: dodgerblue;
+    color: white;
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+section {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.home {
+    transform: translate(1em, 16em);
+    width: 30px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+figure img {
+    height: 5em;
+    width: 5em;
+}
+
+figcaption {
+    padding: 10px;
+    border-bottom: groove 1px;
+    font-size: small;
+}
+
+article h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 95%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: groove 2px;
+    padding: 5px;
+    margin: 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.result {
+    height: 5em;
+    text-align: left;
+    font-size: small;
+    padding: 10px;
+}
+
+footer {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.submit {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: dodgerblue;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover,
+.reset:hover {
+    box-shadow: 0 0 10px #7173ce;
+}
+
+.reset {
+    grid-column: 5;
+    grid-row: 3;
+    background-color: #dabe1c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    cursor: pointer;
+}
